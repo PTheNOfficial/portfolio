@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@layer base {
+    .dark {
+    --bg-primary: #111827;
+    --text-primary: #f9fafb;
+    }
+}

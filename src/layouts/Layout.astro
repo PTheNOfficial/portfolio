@@ -1,0 +1,31 @@
+---
+const { title = "PTheN's Portfolio" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="PTheN">
+        <title>{title}</title>
+        <link rel="stylesheet" href="/src/styles/global.css">
+    </head>
+    <body class="bg-gray-900 text-white font-sans dark">
+
+        <header class="p-4">
+            <h1 class="text-2xl font-bold">{title}</h1>
+        </header>
+
+        <main  class="container mx-auto p-4">
+            <slot />
+        </main>
+
+        <footer class="p-4 text-center">
+            <p>© 2026 PTheN Official. All Rights Reserved</p>
+        </footer>
+
+        <script src="/src/scripts/smooth-scroll.js"></script>
+
+    </body>
+</html>
