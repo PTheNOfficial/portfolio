@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "daisyui": "^5.5.23"
+  },
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i src/app.css -o public/output.css --watch",
+    "build:css": "npx @tailwindcss/cli -i src/app.css -o public/output.css --minify"
+  },
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PTheNOfficial/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PTheNOfficial/portfolio/issues"
+  },
+  "homepage": "https://github.com/PTheNOfficial/portfolio#readme"
+}
