@@ -1,7 +1,7 @@
 # PTheN's Portfolio
 
 <p align="center">
-  <img src="./assets/favicon.svg" width="48">
+  <img src="./assets/favicon.svg" width="128">
 </p>
 
 Welcome to my website's repository.
@@ -13,6 +13,7 @@ This portfolio is intended for personal and educational purposes only. This is a
 This project requires / currently uses:
 
 🌼 DaisyUI - 5.5.23 (or higher)
+
 🍃 Tailwind - 4.3.0 (or higher)
 
 # Copyright Notice
