@@ -21,5 +21,3 @@ This project requires / currently uses:
 This website and repository reserves all rights to its owner. Thus, it is source-available, but not open-source.
 
 © 2026 PTheN Official
-
-This could probably change in the future, but who else really cares about this project anyways?
