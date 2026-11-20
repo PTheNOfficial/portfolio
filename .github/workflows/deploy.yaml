@@ -1,4 +1,4 @@
-```yaml title="deploy.yml"
+```yaml title="deploy.yaml"
 name: Deploy to GitHub Pages
 
 on:
