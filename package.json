@@ -1,28 +1,17 @@
 {
-  "dependencies": {
-    "@tailwindcss/cli": "^4.3.0",
-    "tailwindcss": "^4.3.0"
-  },
-  "devDependencies": {
-    "daisyui": "^5.5.23"
+  "name": "portfolio",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.23.4"
   },
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i src/app.css -o public/output.css --watch",
-    "build:css": "npx @tailwindcss/cli -i src/app.css -o public/output.css --minify"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PTheNOfficial/portfolio.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PTheNOfficial/portfolio/issues"
-  },
-  "homepage": "https://github.com/PTheNOfficial/portfolio#readme"
+  "dependencies": {
+    "astro": "^7.4.13"
+  }
 }

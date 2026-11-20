@@ -1,23 +1,46 @@
-# PTheN's Portfolio
+# Astro Starter Kit: Basics
 
-<p align="center">
-  <img src="./assets/favicon.svg" width="128">
-</p>
+```sh
+npm create astro@latest -- --template basics
+```
 
-Welcome to my website's repository.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-This portfolio is intended for personal and educational purposes only. This is a way for me to learn how to create and design websites using dedicated tools and workflows (for bigger future projects), while also having fun doing something I can maintain in a long term.
+## 🚀 Project Structure
 
-# Setup
+Inside of your Astro project, you'll see the following folders and files:
 
-This project requires / currently uses:
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src
+│   ├── assets
+│   │   └── astro.svg
+│   ├── components
+│   │   └── Welcome.astro
+│   ├── layouts
+│   │   └── Layout.astro
+│   └── pages
+│       └── index.astro
+└── package.json
+```
 
-🌼 DaisyUI - 5.5.23 (or higher)
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-🍃 Tailwind - 4.3.0 (or higher)
+## 🧞 Commands
 
-# Copyright Notice
+All commands are run from the root of the project, from a terminal:
 
-This website and repository reserves all rights to its owner. Thus, it is source-available, but not open-source.
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-© 2026 PTheN Official
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
