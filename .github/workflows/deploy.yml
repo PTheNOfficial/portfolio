@@ -1,4 +1,4 @@
-```yaml title="deploy.yml"
+yaml title="deploy.yml"
 name: Deploy to GitHub Pages
 
 on:
@@ -38,12 +38,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-```
-
-:::note
-The astro action takes a few optional inputs. These can be provided by uncommenting the `with:` line and the input you want to use.
-:::
-
-:::caution
-The official Astro [action](https://github.com/withastro/action) scans for a lockfile to detect your preferred package manager (`npm`, `yarn`, `pnpm`, or `bun`). You should commit your package manager's automatically generated `package-lock.json`, `yarn.lock`, `pnpm-lock.yaml`, or `bun.lockb` file to your repository.
-:::
